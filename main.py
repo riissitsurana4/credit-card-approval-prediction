@@ -163,9 +163,9 @@ def applicant_form(data):
 
 
 def main():
-    st.set_page_config(page_title="Credit Approval Predictor", page_icon=":chart_with_upwards_trend:")
-    st.title("Credit Approval Predictor")
-    st.write("Enter an applicant's details and choose a model to estimate credit status.")
+    st.set_page_config(page_title="Credit Card Approval Predictor", page_icon=":credit_card:")
+    st.title("Credit Card Approval Predictor")
+    st.write("Enter an applicant's details and choose a model to predict whether their credit card application should be approved.")
 
     data = load_data("Random Forest")
 
